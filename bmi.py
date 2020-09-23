@@ -1,6 +1,6 @@
 # инициируем запуск при помощи ввода символа "s"
 i = input("print s for start : ") 
-# вводим данные для библиотеки
+# вводим данные для библиотеки в цикле 
 while i == "s" or i == "S":
     name = str(input("name: "))
     sex = str(input("sex(w/m): "))
